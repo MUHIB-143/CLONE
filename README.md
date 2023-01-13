@@ -6,4 +6,4 @@ git clone https://github.com/MUHIB-143/CLONE
 
 cd CLONE 
 
-python 
+python M-CLONE.py
