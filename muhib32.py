@@ -194,7 +194,7 @@ def xxr():
         clear()
         tl = str(len(user))
         jalan('\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗')
-        jalan(f'{xr}║{x}\x1b[0;92m➣ YOUR TOTAL IDS: {xr}                           ║')
+        jalan(f'{xr}║{x}\x1b[0;92m➣ YOUR TOTAL IDS: {xr}'+tI_________________________║)
         jalan(f'{x}{xr}║{x}\033[0;92m➣ PLEASE WAIT YOUR CLONING PRO              ║') 
         jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ USE YOUR MOBILE DATA                          ║')
         jalan(f'\033[0;97m{xr}║{x}\x1b[0;92m➣ Use Flight Mode For Speed                     ║')
