@@ -178,8 +178,8 @@ def xxr():
     code = random.choice([rk1,rk2,rk3])                      # input(f' [{xr}■{x}] Choose : ')
     os.system('clear')
     print(logo)
-    limit = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;92m10000, \x1b[0;92m20000, \033[0;92m50000 ] \n\033[38;5;208m═════════════════════════════════════════ \n\033[0;97m[{xr}^{x}] \033[0;92mGIVE CRACKING LIMIT:\033[0;93m '))
-    for nmbr in range(limit):
+    LIMIT = int(input(f'\033[0;97m[{xr}^{x}]\033[0;92m EXAMPLE : \033[0;92m10000, \x1b[0;92m20000, \033[0;92m50000 ] \n\033[38;5;208m═════════════════════════════════════════ \n\033[0;97m[{xr}^{x}] \033[0;92mGIVE CRACKING LIMIT:\033[0;92m '))
+    for nmbr in range(LIMIT):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
     os.system("clear")
@@ -194,11 +194,11 @@ def xxr():
         clear()
         tl = str(len(user))
         jalan('\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗')
-        jalan(f'{xr}║{x}\x1b[0;92m➣ YOUR TOTAL IDS: {xr}                            ║')
-        jalan(f'{x}{xr}║{x}\033[0;92m➣ PLEASE WAIT YOUR CLONING PRO                 ║') 
-        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ USE YOUR MOBILE DATA                  ║')
-        jalan(f'\033[0;97m{xr}║{x}\x1b[0;92m➣ Use Flight Mode For Speed             ║')
-        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ Super Fast Speed Cloning              ║')
+        jalan(f'{xr}║{x}\x1b[0;92m➣ YOUR TOTAL IDS: {z}                           ║')
+        jalan(f'{x}{xr}║{x}\033[0;92m➣ PLEASE WAIT YOUR CLONING PRO              ║') 
+        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ USE YOUR MOBILE DATA                          ║')
+        jalan(f'\033[0;97m{xr}║{x}\x1b[0;92m➣ Use Flight Mode For Speed                     ║')
+        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ Super Fast Speed Cloning                      ║')
         jalan('\033[1;97m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝')
         for love in user:
             pwx = [love[1:]]
