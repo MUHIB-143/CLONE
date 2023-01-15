@@ -194,11 +194,11 @@ def xxr():
         clear()
         tl = str(len(user))
         jalan('\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗')
-        jalan(f'{xr}║{x}\x1b[0;92m➣ YOUR TOTAL IDS: {xr}+tl                 ║')
-        jalan(f'{x}{xr}║{x}\033[0;92m➣ PLEASE WAIT YOUR CLONING PRO          ║') 
-        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ USE YOUR MOBILE DATA           ║')
-        jalan(f'\033[0;97m{xr}║{x}\x1b[0;92m➣ Use Flight Mode For Speed      ║')
-        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ Super Fast Speed Cloning       ║')
+        jalan(f'{xr}║{x}\x1b[0;92m➣ YOUR TOTAL IDS: {xr}                            ║')
+        jalan(f'{x}{xr}║{x}\033[0;92m➣ PLEASE WAIT YOUR CLONING PRO                 ║') 
+        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ USE YOUR MOBILE DATA                  ║')
+        jalan(f'\033[0;97m{xr}║{x}\x1b[0;92m➣ Use Flight Mode For Speed             ║')
+        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ Super Fast Speed Cloning              ║')
         jalan('\033[1;97m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝')
         for love in user:
             pwx = [love[1:]]
