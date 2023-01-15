@@ -194,11 +194,11 @@ def xxr():
         clear()
         tl = str(len(user))
         jalan('\033[0;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗')
-        jalan(f'{xr}║{x}\x1b[0;92m➣ CHACKING TOTAL ID: {xr}                        ║')
+        jalan(f'{xr}║{x}\x1b[0;92m➣ CHACKING TOTAL ID: {xr}                       ║')
         jalan(f'{x}{xr}║{x}\033[0;92m➣ WAIT FOR OK ID                            ║') 
-        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ USE MOBILE DATA FOR CLONING                 ║')
-        jalan(f'\033[0;97m{xr}║{x}\x1b[0;92m➣ USE AEROPLANE MOOD IN 5 MIN                 ║')
-        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ COMPLTE IT FOR BETTER RESULT                  ║')
+        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ USE MOBILE DATA FOR CLONING               ║')
+        jalan(f'\033[0;97m{xr}║{x}\x1b[0;92m➣ USE AEROPLANE MOOD IN 5 MIN               ║')
+        jalan(f'\033[0;97m{xr}║{x}\033[0;92m➣ COMPLTE IT FOR BETTER RESULT              ║')
         jalan('\033[0;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝')
         for love in user:
             pwx = [love[1:]]
