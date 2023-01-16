@@ -13,12 +13,12 @@ from time import sleep as waktu
 bitt=platform.architecture()[0]
 
 if bitt=="32bit":
-    os.system('clear');print('[!] YOUR DEVICE IS 32 BIT');time.sleep(1);print('\n\n[!] YOUR PYTHON VERSION :');time.sleep(1);os.system('python --version')
+    os.system('clear');print('[😍] YOUR DEVICE IS 32 BIT');time.sleep(1);print('\n\n[!] YOUR PYTHON VERSION :');time.sleep(1);os.system('python --version')
     time.sleep(1)
    
 
 if bitt=="64bit":
-    os.system('clear');print('[!] YOUR DEVICE IS 64 BIT');time.sleep(1);print('\n\n[!] YOURPYTHON VERSION :');time.sleep(1);os.system('python --version')
+    os.system('clear');print('[😍] YOUR DEVICE IS 64 BIT');time.sleep(1);print('\n\n[!] YOURPYTHON VERSION :');time.sleep(1);os.system('python --version')
     time.sleep(1)
 
 try:
@@ -70,7 +70,7 @@ class jalan:
         for e in z + "\n":
             sys.stdout.write(e)
             sys.stdout.flush()
-            time.sleep(0.009)
+            time.sleep(0.2)
             
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -110,7 +110,7 @@ logo =("""\033[0;92m
   [1;92m██  ██  ██[1;93m ██      ██[1;97m ██   ██[1;91m ██[1;92m ██   ██
   [1;92m██      ██[1;93m ██████████[1;97m ██   ██[1;91m ██[1;92m ██████
 [1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗[1;92m
-[1;92m║    ~~~~~~~   FREE  UID CLONING     ~~~~~~~   ║
+[1;92m║    ~~~~~~~  FREE NUMBER CLONING    ~~~~~~~   ║
 [1;92m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝[1;92m
 [1;92m╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗[1;92m
 [1;92m║➣ [1;92mDEVOLPER   :          MUHIB-143 [1;92m          ║
