@@ -70,7 +70,7 @@ class jalan:
         for e in z + "\n":
             sys.stdout.write(e)
             sys.stdout.flush()
-            time.sleep(0.2)
+            time.sleep(0)
             
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -277,7 +277,7 @@ def rcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\r%s{x}[{xr}MUHIB{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
+        sys.stdout.write(f'\r\r%s{x}[{xr}MUHIB-143{x}][%s|%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
