@@ -234,7 +234,7 @@ def rcrack(uid,pwx,tl):
             'accept-language': 'en-US,en;q=0.9',
             'cache-control': 'max-age=0',
             # 'cookie': 'datr=zwaiY8oIpRJmusfwcUYR3gcl; sb=zwaiY5XKI6dYvdiAT8MfIAzF; wd=979x1831; dpr=2.34375; fr=0FGFgDcD2x3MSPEbJ..BjogbP.Fh.AAA.0.0.Bjt7jq.AWXveghp-AI',
-            'sec-ch-ua': "Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109",
+            'sec-ch-ua':'"Not_A Brand";v="99", "Google Chrome";v="109", "Chromium";v="109"',
             'sec-ch-ua-mobile': '?1',
             'sec-ch-ua-platform': '"Windows"',
             'sec-fetch-dest': 'document',
