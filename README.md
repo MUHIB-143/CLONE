@@ -6,4 +6,4 @@ git clone https://github.com/MUHIB-143/CLONE
 
 cd CLONE 
 
-python MXM.py
+python MCLONE.py
